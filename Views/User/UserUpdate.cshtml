@@ -1,0 +1,83 @@
+﻿<main id="main" class="main">
+
+    <div class="pagetitle">
+        <h1>Add User</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item">Databases</li>
+                <li class="breadcrumb-item">User</li>
+                <li class="breadcrumb-item active">Add User</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+    <section class="section">
+        @* <div class="row">
+            <div class="col-lg-6"> *@
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Add New User</h5>
+
+                        <!-- Horizontal Form -->
+                        <form>
+                            <div class="row mb-3">
+                                <label for="inputText3" class="col-sm-2 col-form-label">UserName</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputUsename">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="inputEmail">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputNumber3" class="col-sm-2 col-form-label">Mobile No</label>
+                                <div class="col-sm-10">
+                                    <input type="number" class="form-control" id="inputNumber">
+                                </div>
+                            </div>
+                            <fieldset class="row mb-3">
+                                <legend class="col-form-label col-sm-2 pt-0">IsAdmin</legend>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
+                                        <label class="form-check-label" for="gridRadios1">
+                                            Yes
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                        <label class="form-check-label" for="gridRadios2">
+                                            No
+                                        </label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">Save</button>
+                                <button type="reset" class="btn btn-secondary">Reset</button>
+                                <button class="btn btn-danger" asp-controller="User" asp-action="UserTable">Cancel</button>
+                            </div>
+                        </form><!-- End Horizontal Form -->
+
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+            
+        </div>
+    </section>
+
+</main><!-- End #main -->
